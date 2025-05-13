@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>B&B Resident Duty Roster</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: #000000;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h2, h3 {
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  }  table {
+    width: 90%;
+    max-width: 1000px;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 30px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #2a2a57;
+  }
+  th, td {
+    border: 1px solid #4a4a8a;
+    padding: 15px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width: 14.28%;
+    height: 80px;
+    vertical-align: top;
+  }
+  td span {
+    display: block;
+    margin-top: 5px;
+    padding: 4px;
+    border-radius: 4px;
+  }
+  th {
+    background-color: #3c3c7e;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  td {
+    background-color: #2f2f61;
+    color: #f0f0f0;
+  }
+  tbody tr:hover td {
+     background-color: #3a3a6b;
+  }
+
+  /* Person Colors */
+  .person-amit { background-color: #ff1744; color: #fff; } /* Vivid Red */
+  .person-dipesh { background-color: #ffea00; color: #222; } /* Bright Yellow */
+  .person-anmol { background-color: #00e676; color: #222; } /* Bright Green */
+  .person-rupesh { background-color: #2979ff; color: #fff; } /* Vivid Blue */
+  .person-pranodan { background-color: #d500f9; color: #fff; } /* Vivid Purple */
+
+  .summary {
+    margin-top: 30px;
+    border: none;
+    padding: 20px;
+    display: inline-block;
+    background-color: rgba(42, 42, 87, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #e0e0e0;
+    width: 70%;
+    max-width: 800px;
+    box-sizing: border-box;
+  }
+  .summary h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #4a4a8a;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  .summary p {
+    margin: 8px 0;
+    line-height: 1.5;
+  }
+  .summary hr {
+    border: none;
+    border-top: 1px solid #4a4a8a;
+    margin: 15px 0;
+  }
+</style>
+</head>
+<body>
+
+<h2>B&B Hospital Resident Duty Roster (Month Jestha 2082 --- 31 Days)</h2>  
+<table>
+        <thead>
+          <tr>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1<br><span class="person-dipesh">Dipesh</span></td>
+            <td>2<br><span class="person-rupesh">Rupesh</span></td>
+            <td>3<br><span class="person-pranodan">Pranodan</span></td>
+          </tr>
+          <tr>
+            <td>4<br><span class="person-anmol">Anmol</span></td>
+            <td>5<br><span class="person-dipesh">Dipesh</span></td>
+            <td>6<br><span class="person-rupesh">Rupesh</span></td>
+            <td>7<br><span class="person-anmol">Anmol</span></td>
+            <td>8<br><span class="person-pranodan">Pranodan</span></td>
+            <td>9<br><span class="person-amit">Amit</span></td>
+            <td>10<br><span class="person-rupesh">Rupesh</span></td>
+          </tr>
+          <tr>
+            <td>11<br><span class="person-anmol">Anmol</span></td>
+            <td>12<br><span class="person-dipesh">Dipesh</span></td>
+            <td>13<br><span class="person-pranodan">Pranodan</span></td>
+            <td>14<br><span class="person-anmol">Anmol</span></td>
+            <td>15<br><span class="person-rupesh">Rupesh</span></td>
+            <td>16<br><span class="person-amit">Amit</span></td>
+            <td>17<br><span class="person-anmol">Anmol</span></td>
+          </tr>
+          <tr>
+            <td>18<br><span class="person-rupesh">Rupesh</span></td>
+            <td>19<br><span class="person-pranodan">Pranodan</span></td>
+            <td>20<br><span class="person-dipesh">Dipesh</span></td>
+            <td>21<br><span class="person-anmol">Anmol</span></td>
+            <td>22<br><span class="person-pranodan">Pranodan</span></td>
+            <td>23<br><span class="person-amit">Amit</span></td>
+            <td>24<br><span class="person-dipesh">Dipesh</span></td>
+          </tr>
+          <tr>
+            <td>25<br><span class="person-anmol">Anmol</span></td>
+            <td>26<br><span class="person-pranodan">Pranodan</span></td>
+            <td>27<br><span class="person-rupesh">Rupesh</span></td>
+            <td>28<br><span class="person-anmol">Anmol</span></td>
+            <td>29<br><span class="person-dipesh">Dipesh</span></td>
+            <td>30<br><span class="person-amit">Amit</span></>
+            <td>31<br><span class="person-rupesh">Rupesh</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+<div class="summary">
+  <h3>Duty Summary</h3>
+  <p>Amit: 4 duties (All Fridays except first) <span style="display:inline-block; width:10px; height:10px; background-color:#ff1744; border-radius: 50%; margin-left: 5px;"></span></p>
+  <p>Dipesh: 6 duties (1 Saturday) <span style="display:inline-block; width:10px; height:10px; background-color:#ffea00; border-radius: 50%; margin-left: 5px;"></span></p>
+  <p>Anmol: 8 duties (1 Saturday) <span style="display:inline-block; width:10px; height:10px; background-color:#00e676; border-radius: 50%; margin-left: 5px;"></span></p>
+  <p>Rupesh: 7 duties (2 Saturdays) <span style="display:inline-block; width:10px; height:10px; background-color:#2979ff; border-radius: 50%; margin-left: 5px;"></span></p>
+  <p>Pranodan: 6 duties (1 Saturday) <span style="display:inline-block;width:10px; height:10px; background-color:#d500f9; border-radius: 50%; margin-left: 5px;"></span></p>
+  <hr>
+  <p><strong>Total Duties Assigned: 31</strong></p>
+  <p><strong>Total Saturday Duties: 5</strong></p>
+  <hr>
+  <!-- <p><strong>Criteria Status:</strong></p>
+  <p>1. No unassigned days: MET</p>
+  <p>2. Amit works only Fridays except first: MET</p>
+  <p>3. P/D=6, A=8, R=7 duties: MET</p>
+  <p>4. Rupesh 2nd & last Sat duty: MET</p>
+  <p>5. No one assigned duties with less than 2 days rest in between: MET</p>
+  <p>6. Pranodan 1st Sat & no duty 4-7: MET</p>
+  <p>7. 3rd/4th Sat assigned to Anmol/Dipesh: MET (17th=Anmol, 24th=Dipesh)</p> -->
+</div>
+
+</body>
+</html>
